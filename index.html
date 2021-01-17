@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Paula Salvado">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./style.css">
+  <meta name="description" content="Website feito como projeto durante o curso we can code, inspirado no AirBnB">
+  <title>LiveBnB</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>
+        <a href="./index.html" title="página inicial">
+          <img src="./logo.svg" alt="LiveBnB" class="logo">
+        </a>
+      </h1>
+      <div class="search-wraper">
+        <input type="search" placeholder="Buscar..." name="busca" id="search" autocomplete="off">
+        <button type="submit" name="submit" id="submit-btn"><img src="./search-btn.svg" alt="buscar" class="search-icon"></button>
+      </div>
+    </nav>
+  </header>
+  <main id="main-content">
+    <div id="card-list"></div>
+    <div id="pagination"></div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
