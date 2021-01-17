@@ -187,7 +187,7 @@ main{
   color: #ed0245;
 }
 .booking-btn-wraper{
-  height: 2.5rem;
+  min-height: 2.5rem;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -219,6 +219,12 @@ main{
 }
 #booking-book:hover{
   background: #f03469;
+}
+
+@media (max-width: 400px){
+  .booking-btn{
+    width: 100%;
+  }
 }
 
 @media (max-width: 1080px){
