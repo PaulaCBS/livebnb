@@ -62,6 +62,10 @@ main{
   flex: 0 1 auto;
   height: 20rem;
   margin: 0.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 0.2rem;
   background: #FFF;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -70,8 +74,11 @@ main{
 .card-header, .card-body, .card-footer{
   width: 100%;
 }
-.card-body, .card-footer{
+.card-body{
   padding: 0.8rem 1.2rem;
+}
+.card-footer{
+  padding: 0 1.2rem 1rem;
 }
 .card-header{
   width: 16rem;
@@ -87,7 +94,6 @@ main{
   color: #888;
 }
 .card-footer{
-  margin: 0.5rem;
   display: flex;
   flex: 0 0 auto;
   justify-content: space-between;
